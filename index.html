@@ -342,12 +342,13 @@
   <div class="wrap">
     <div class="sec-head">
       <h2>Selected projects</h2>
-      <span class="sec-badge" style="background:var(--pink); color:#fff;">2 shipped</span>
+      <span class="sec-badge" style="background:var(--pink); color:#fff;">4 shipped</span>
     </div>
     <div class="filter-row">
       <button class="filter-btn active" data-filter="all" type="button">All</button>
       <button class="filter-btn" data-filter="web" type="button">Web</button>
       <button class="filter-btn" data-filter="cv" type="button">Computer Vision</button>
+      <button class="filter-btn" data-filter="tools" type="button">Tools</button>
     </div>
     <div class="projects">
       <div class="pcard hard" data-category="web">
@@ -373,6 +374,34 @@
           <li>Lightweight interface for live gesture-to-text conversion</li>
         </ul>
         <a class="p-link" href="https://github.com/Adhipan007" target="_blank" rel="noopener">GitHub Repo →</a>
+      </div>
+      <div class="pcard hard" data-category="web">
+        <div class="sticker sticker-mini" style="background:var(--blue);"><span>FSD</span></div>
+        <span class="p-tag" style="background:var(--lime);">Web Platform</span>
+        <h3>Inventory & Order Management System</h3>
+        <div class="p-tech">Java Core · HttpServer · MongoDB · React · JWT</div>
+        <ul>
+          <li>Full-stack system built with plain Java Core (no Spring Boot) and a hand-rolled REST API on the JDK's HttpServer</li>
+          <li>JWT authentication with role-based access control across Admin, Staff, and Customer roles</li>
+          <li>Atomic stock validation on order creation using MongoDB's findOneAndUpdate to prevent overselling under concurrent requests</li>
+          <li>Search, filtering, and pagination across products, suppliers, and customers</li>
+        </ul>
+        <a class="p-link" href="https://github.com/Adhipan007/inventory-management-system" target="_blank" rel="noopener">GitHub Repo →</a>
+      </div>
+      <div class="pcard hard" data-category="tools">
+        <div class="sticker sticker-mini" style="background:var(--yellow);"><span>APP</span></div>
+        <span class="p-tag" style="background:var(--pink); color:#fff;">Productivity Tool</span>
+        <h3>Todo List App</h3>
+        <div class="p-tech">HTML5 · CSS3 · JavaScript</div>
+        <ul>
+          <li>Task manager with priority levels, due dates, overdue detection, and live search/filtering</li>
+          <li>Local-first persistence using localStorage, so tasks survive page refreshes with no backend</li>
+          <li>Live stats bar tracking total, completed, and overdue tasks as the list changes</li>
+        </ul>
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          <a class="p-link" style="margin-top:20px;" href="projects/todo-app.html" target="_blank" rel="noopener">Live Demo →</a>
+          <a class="p-link" style="margin-top:20px;" href="https://github.com/Adhipan007/todo-list-app" target="_blank" rel="noopener">GitHub Repo →</a>
+        </div>
       </div>
     </div>
   </div>
